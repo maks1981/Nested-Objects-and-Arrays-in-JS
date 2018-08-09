@@ -1,0 +1,37 @@
+// Exercise (Nested Objects and Array)
+// Make post and in Array we use Objects 
+// and comments we use,and value will be an Array
+
+var post = [
+    {
+        title: "Mission Impossible",
+        author: "Tom Cruise",
+        comments: ["Awesome post", "Terrible post"]
+    },
+    {
+        title: "Avengers",
+        author: "Marvel Comics",
+        comments: [":)", "I like it"]
+    }
+    ]
+undefined
+post
+(2) [{…}, {…}]
+0: {title: "Mission Impossible", author: "Tom Cruise", comments: Array(2)}
+1: {title: "Avengers", author: "Marvel Comics", comments: Array(2)}
+length: 2__proto__: Array(0)
+
+post.length // enter 
+2
+post[0].title // enter
+"Mission Impossible"
+
+post[1] // enter
+{title: "Avengers", author: "Marvel Comics", comments: Array(2)}
+
+post[1].comments // enter
+[":)", "I like it"]
+
+post[1].comments[1] // enter
+"I like it"
+
